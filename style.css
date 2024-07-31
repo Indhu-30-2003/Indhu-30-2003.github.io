@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .container{
+    padding:30px;
+  }
+  .section-one{
+    background-color: black;
+    color: beige;
+    padding:10px;
+  }
+  .section-one__contact{
+    background-color: rgb(187, 245, 245);
+    text-decoration: none;
+    color: black;
+    padding:2px;
+    display: inline-block;
+    margin-top: 5px;
+    border-style:double;
+  }
+  .section-one__name{
+    font-size: 50px;
+
+  }
+  .section-one__role{
+    font-size: 20px;
+  }
+  a:hover{
+    color:whitesmoke;
+    background-color: coral;
+  }
+  .section-two,.section-three,.section-four, .section-five{
+   
+    margin-top: 10px;
+  }
+  .section-two__desc,.section-three__accom,.section-four__skilllist{
+    
+    margin-top: 10px;
+  }
+  .section-six{
+    margin-top: 10px;
+  }
+  .section-five{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+  }
+  .section-five__link{
+    color: rgb(0, 119, 255);
+  }
+  .section-three li,.section-four li{
+    list-style:none;
+    padding-top: 5px;
+    
+  }
+  .section-three{
+    display:inline-block;
+    height:340px;
+    width: 500px;
+    background-color:rgb(133, 235, 233);
+    border-radius: 20px;
+    border-style: groove;
+    vertical-align: top;
+    padding:10px;
+  }
+  .section-four{
+    display:inline-block;
+    height:200px;
+    width: 200px;
+    background-color:rgb(204, 228, 110);
+    border-radius: 20px;
+    border-style: groove;   
+    vertical-align: top;
+    padding:10px;
+    
+  }
+  .contact-form{
+    margin-top: 10px;
+  }
+  .contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 15px;
+  }
+  .contact-form__input{
+    padding: 10px;
+    border:none;
+    border-bottom: solid 1px black;
+  }
+  .contact-form__textarea{
+    padding: 10px;
+    border:none;
+    border: solid 1px black;
+  }
+   .contact-form__submit{
+    border:none;
+    border-style:groove;
+    background-color: rgb(178, 243, 248);
+    color:black;
+    padding: 10px;
+
+   }
+
+  
+  
